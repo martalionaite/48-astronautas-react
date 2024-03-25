@@ -1,0 +1,11 @@
+.socials {
+    display: flex;
+    gap: 10px;
+}
+.socials > .socialLink {
+    text-decoration: none;
+    color: grey;
+}
+.socials > .socialLink:hover {
+    color: blueviolet;
+}

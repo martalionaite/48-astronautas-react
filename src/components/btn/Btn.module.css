@@ -1,0 +1,48 @@
+.btnList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btn {
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 20px;
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 28px;
+    border: 3px solid blueviolet;
+}
+.btn:hover {
+    background-color: white;
+    color: blueviolet;
+}
+.btn.btnWhite {
+    background-color: white;
+    color: blueviolet;
+}
+.btn.btnWhite:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.btn.btnGreen {
+    background-color: green;
+    color: #fff;
+}
+.btn.btnGreen:hover {
+    background-color: #fff;
+    color: green;
+}
+
+.btnSmall {
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 17px;
+    border: 2px solid blueviolet;
+}
