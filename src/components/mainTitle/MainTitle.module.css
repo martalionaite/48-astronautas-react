@@ -1,3 +1,10 @@
-.mainImg {
-    width: 110%;
+.mainTitle {
+    font-size: 44px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainTitle > span {
+    display: block;
+    font-weight: 100;
 }
